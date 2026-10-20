@@ -1,0 +1,6 @@
+id,name,short_name,N,Positives,Negatives,tag,zone,Positive_Rate,Source
+internal_strict_nomixed,Internal strict no-mixed benchmark,Internal benchmark,5263,672,4591,"CD-HIT 40%; mixed-label
+clusters removed",internal,0.12768383051491544,/sessions/determined-tender-hamilton/mnt/tcbb/phase0_baseline_freeze_20260713/data_inventory.csv
+strict_novel40,Strict Seq2Topt novel40 external,Strict Seq2Topt novel40,66,26,40,Most stringent low-homology panel,external,0.3939393939393939,/sessions/determined-tender-hamilton/mnt/tcbb/phase1_external_bootstrap_20260713/external_validation_main_table.csv
+seq2topt_noexact,Seq2Topt no-exact-overlap external,Seq2Topt no-exact-overlap,136,33,103,no-exact-overlap,external,0.2426470588235294,/sessions/determined-tender-hamilton/mnt/tcbb/phase1_external_bootstrap_20260713/external_validation_main_table.csv
+public_topt_noexact,Public Topt no-exact-overlap external,Public Topt no-exact-overlap,984,313,671,no-exact-overlap,external,0.31808943089430897,/sessions/determined-tender-hamilton/mnt/tcbb/phase1_external_bootstrap_20260713/external_validation_main_table.csv

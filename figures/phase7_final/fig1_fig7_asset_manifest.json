@@ -1,0 +1,20 @@
+{
+  "figure_assets": {
+    "fig1_replacement": "fig1_system_architecture_replacement.png",
+    "fig7_preview": "fig7_roc_pr_external_esm2_150m_preview.png",
+    "fig7_pdf": "fig7_roc_pr_external_esm2_150m.pdf",
+    "fig7_eps": "fig7_roc_pr_external_esm2_150m.eps"
+  },
+  "figure_sequence": [
+    "Fig. 1.",
+    "Fig. 2.",
+    "Fig. 3.",
+    "Fig. 4.",
+    "Fig. 5.",
+    "Fig. 6.",
+    "Fig. 7."
+  ],
+  "fig7_caption_scope": "External ROC and precision-recall curves for frozen ESM2-150M probabilities across novel40 (N=66), Seq2Topt no-exact (N=136), and Public Topt no-exact (N=984).",
+  "fig7_confidence_bands": false,
+  "fig7_operating_threshold": 0.5
+}

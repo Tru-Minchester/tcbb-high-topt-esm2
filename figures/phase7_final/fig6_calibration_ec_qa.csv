@@ -1,0 +1,10 @@
+Panel,Source,Filter,Error_Bars,Marker_Size,Low_Power_EC_Classes,Empty_Bins_Dropped
+A,results/analysis/phase3/reliability_diagram_data.csv,"Embedding_Model=ESM2_150M; Analysis_Role=primary; Binning_Label=equal_width_10; Calibration_Method in uncalibrated,isotonic",none,scaled_by_N_Bin,,
+A_empty_bins,results/analysis/phase3/reliability_diagram_data.csv,External_Set=strict_novel40; Calibration_Method=uncalibrated; N_Bin=0 dropped before plotting,none,scaled_by_N_Bin,,0.0
+A_empty_bins,results/analysis/phase3/reliability_diagram_data.csv,External_Set=strict_novel40; Calibration_Method=isotonic; N_Bin=0 dropped before plotting,none,scaled_by_N_Bin,,3.0
+A_empty_bins,results/analysis/phase3/reliability_diagram_data.csv,External_Set=seq2topt_noexact; Calibration_Method=uncalibrated; N_Bin=0 dropped before plotting,none,scaled_by_N_Bin,,0.0
+A_empty_bins,results/analysis/phase3/reliability_diagram_data.csv,External_Set=seq2topt_noexact; Calibration_Method=isotonic; N_Bin=0 dropped before plotting,none,scaled_by_N_Bin,,1.0
+A_empty_bins,results/analysis/phase3/reliability_diagram_data.csv,External_Set=public_topt_noexact; Calibration_Method=uncalibrated; N_Bin=0 dropped before plotting,none,scaled_by_N_Bin,,0.0
+A_empty_bins,results/analysis/phase3/reliability_diagram_data.csv,External_Set=public_topt_noexact; Calibration_Method=isotonic; N_Bin=0 dropped before plotting,none,scaled_by_N_Bin,,0.0
+A_metrics,results/analysis/phase3/calibration_metrics.csv,Embedding_Model=ESM2_150M; Analysis_Role=primary; Calibration_Method=uncalibrated,none,,,
+B,results/analysis/phase6/phase6_ec_stratified_metrics.csv,Model_Branch=ESM2-150M; Analysis_Role=primary,none,,EC7 Translocases,

@@ -1,0 +1,9 @@
+Figure,Output_File,Exists,Bytes
+Fig3,figures/phase7_final/fig3_external_validation_esm2_150m.pdf,True,64889
+Fig3,figures/phase7_final/fig3_external_validation_esm2_150m.eps,True,234493
+Fig3,figures/phase7_final/fig3_external_validation_esm2_150m_preview.png,True,470012
+Fig4,figures/phase7_final/fig4_ablation_redundancy_esm2_150m.pdf,True,83874
+Fig4,figures/phase7_final/fig4_ablation_redundancy_esm2_150m.eps,True,1560556
+Fig4,figures/phase7_final/fig4_ablation_redundancy_esm2_150m_preview.png,True,1419189
+QA,figures/phase7_final/phase7_fig3_fig4_plot_qa.csv,True,1835
+Alignment,figures/phase7_final/fig3_vs_fig4a_esm2_150m_value_alignment.csv,True,7082

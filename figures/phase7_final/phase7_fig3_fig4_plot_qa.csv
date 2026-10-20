@@ -1,0 +1,16 @@
+Figure,Metric,Dataset,Value,CI_Lower,CI_Upper,Error_Bar_Lower_Nonnegative,Model_Filter,Panel,Branches,Metrics,Color_Scale,Scale,Error_Bars,YAxis
+Fig3,ROC_AUC,strict_novel40,0.8115384615384615,0.7029,0.9039,True,ESM2_150M only,,,,,,,
+Fig3,ROC_AUC,seq2topt_noexact,0.8884966166519565,0.8267,0.9403,True,ESM2_150M only,,,,,,,
+Fig3,ROC_AUC,public_topt_noexact,0.8249096527523176,0.7949,0.8528,True,ESM2_150M only,,,,,,,
+Fig3,PR_AUC,strict_novel40,0.7451102849366822,0.6072,0.8735,True,ESM2_150M only,,,,,,,
+Fig3,PR_AUC,seq2topt_noexact,0.751978898136853,0.633,0.8616,True,ESM2_150M only,,,,,,,
+Fig3,PR_AUC,public_topt_noexact,0.7489134610613547,0.7092,0.786,True,ESM2_150M only,,,,,,,
+Fig3,MCC,strict_novel40,0.4114253678777396,0.1827,0.6293,True,ESM2_150M only,,,,,,,
+Fig3,MCC,seq2topt_noexact,0.5099628334330824,0.3277,0.6737,True,ESM2_150M only,,,,,,,
+Fig3,MCC,public_topt_noexact,0.5032649384252417,0.4457,0.5585,True,ESM2_150M only,,,,,,,
+Fig3,Brier_Score,strict_novel40,0.1755580712913136,0.1321,0.2214,True,ESM2_150M only,,,,,,,
+Fig3,Brier_Score,seq2topt_noexact,0.1201841158858421,0.0942,0.1482,True,ESM2_150M only,,,,,,,
+Fig3,Brier_Score,public_topt_noexact,0.1470178162231271,0.137,0.1574,True,ESM2_150M only,,,,,,,
+Fig4,,,,,,,ESM2-150M main branches only; all 650M branches excluded,A,AAC; DPC; AAC+DPC; ESM2-150M; ESM2-150M+handcrafted early fusion; late fusion; calibrated late fusion,ROC_AUC; PR_AUC; MCC; F1; Balanced_Accuracy; Brier,Per-metric normalization; Brier colormap reversed so lower values use the better-color direction,,,
+Fig4,,,,,,,Internal OOF Spearman; no 650M branches,B,AAC; DPC; ESM2-150M; ESM2-150M+handcrafted early fusion; late fusion,,,,,
+Fig4,,,,,,,,C,,,,"Faceted linear y-axis, no log axis","Permuted_Std, N_Repeats=30",Allows negative error-bar extent below zero; not clipped at y=0
