@@ -18,7 +18,9 @@ Companion code repository for the manuscript submitted to *IEEE/ACM Transactions
 
 The complete release package (247 MB, including frozen ESM-2 150M/650M feature matrices, per-sample prediction tables, and the full `MANIFEST.csv`) is archived separately:
 
-- **Zenodo / IEEE DataPort**: *DOI to be assigned at deposition* — see `docs/DATA_AVAILABILITY_TCBB.md` for the deposition plan and third-party data terms.
+- **Zenodo**: [10.5281/zenodo.23587569](https://doi.org/10.5281/zenodo.23587569) — release `20261017`. (The concept DOI, which always resolves to the latest version, will be added once the record is published.)
+
+See `docs/DATA_AVAILABILITY_TCBB.md` for the deposition plan and third-party data terms.
 
 After downloading, unpack the archive and place it so that `data_processed/`, `features/`, and `results/analysis/` sit next to `code/` from this repository.
 
