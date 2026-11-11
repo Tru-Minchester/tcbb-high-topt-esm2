@@ -155,7 +155,16 @@ def make_fig5() -> tuple[list[Path], Path]:
             ef_ymax = 20.0 if ef_ci_upper > 18.0 else 18.0
             ax.set_ylim(0, ef_ymax)
             annotation_y = ef_ymax * 0.985
-            for xi, max_value in zip(x, ef_max):
+            n_ratios = len(x)
+            for i, (xi, max_value) in enumerate(zip(x, ef_max)):
+                # Anchor edge labels inside the axes so they cannot run into the
+                # y tick labels (left) or past the right spine.
+                if i == 0:
+                    ha, dx = "left", 0.04
+                elif i == n_ratios - 1:
+                    ha, dx = "right", -0.04
+                else:
+                    ha, dx = "center", 0.0
                 ax.plot(
                     xi,
                     annotation_y,
@@ -166,14 +175,14 @@ def make_fig5() -> tuple[list[Path], Path]:
                     zorder=4,
                 )
                 ax.text(
-                    xi,
+                    xi + dx,
                     annotation_y - ef_ymax * 0.065,
                     f"EFmax={int(round(max_value))}",
-                    ha="center",
+                    ha=ha,
                     va="top",
                     fontsize=7,
                 )
-            ax.legend(frameon=False, loc="upper left", bbox_to_anchor=(0.62, 0.88), borderaxespad=0.0)
+            ax.legend(frameon=False, loc="upper left", bbox_to_anchor=(0.62, 0.85), borderaxespad=0.0)
         else:
             ax.set_ylim(0, 1.0)
             ax.legend(frameon=False, loc="upper right")
