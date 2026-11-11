@@ -1,0 +1,7 @@
+* text=auto
+
+# Figure binaries and archives must stay byte-identical to MANIFEST.csv hashes.
+*.png binary
+*.pdf binary
+*.eps binary
+*.zip binary
